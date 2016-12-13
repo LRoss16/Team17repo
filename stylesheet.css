@@ -1,0 +1,243 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+    height: auto;
+    width: auto;
+    /*+border-radius: 2.5em;*/
+    -moz-border-radius: 2.5em;
+    -webkit-border-radius: 2.5em;
+    -khtml-border-radius: 2.5em;
+    border-radius: 2.5em;
+    padding: 0em;
+    margin: 0em;
+    border: 0px solid black;
+    color: #943281;
+    text-align: center;
+}
+
+/* inline menubar css */
+ul {
+    overflow: visible;
+    background-color: #943281;
+    font-size: 2em;
+    min-height: 4em;
+    font-family: Verdana, sans-serif;
+    /*+border-radius: 0.5em;*/
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -khtml-border-radius: 0.5em;
+    border-radius: 0.5em;
+    position: relative;
+}
+
+li {
+    max-width: 100%;
+    display: block;
+    margin-right: 1.5em;
+}
+
+li a {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+    font-family: Verdana, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1em;
+    position: relative;
+}
+
+li a:hover {
+    background-color: rgba(110, 40, 100, 0.700);
+    /*+border-radius: 0.5em;*/
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -khtml-border-radius: 0.5em;
+    border-radius: 0.5em;
+}
+
+/* menu end */
+#newsSection{
+    margin: 1.5em;
+    margin-top: 2.5em;
+    color: #000000;
+    background-color: #FFFFFF;
+    /*outline: 0.1em solid #A841BD;*/
+    padding: 2em;
+    text-align: center;
+    max-width:60%;
+    float: left;
+    font-family: Verdana, sans-serif;
+    border-radius: 0.5em;
+}
+
+#logoImage{
+    text-align: center;
+    max-width: 100%;
+    height:auto;
+    width: auto\9;
+}
+
+#mainSection {
+    margin: 2.5em;
+    color: #000000;
+    background-color: #FFFFFF;
+    /*outline: 0.1em solid #A841BD;*/
+    padding: 2em;
+    max-width: 90%;
+    font-family: Verdana, sans-serif;
+    border-radius: 0.5em;
+}
+
+#leftMain{
+    margin:2.5em;
+    margin-right: 0.5em;
+    color: #000000;
+    background-color: #FFFFFF;
+    /*outline: 0.1em solid #A841BD;*/
+    padding: 2em;
+    max-width: 40%;
+    font-family: Verdana, sans-serif;
+    border-radius: 0.5em;
+    float: left;
+}
+
+#rightMain{
+    margin: 2.5em;
+    margin-left: 0.5em;
+    color: #000000;
+    background-color: #FFFFFF;
+    /*outline: 0.1em solid #A841BD;*/
+    padding: 2em;
+    max-width: 40%;
+    font-family: Verdana, sans-serif;
+    border-radius: 0.5em;
+    float: right;
+}
+
+#newsStories{
+text-align: left;
+}
+
+#wrapper {
+    /*
+    border-width: 2px;
+    border-style: groove;
+    border-color: #A841BD;
+    */
+}
+
+#twitterFeed{
+    margin: 0.5em;
+    margin-top: 2.5em;
+    float: right;
+}
+
+#followUs{
+    margin: 0.5em;
+    margin-top: 2.5em;
+    float: right;
+
+}
+
+#examArrangement{
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+}
+
+
+dd{
+    color: #943281;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+@media only screen and (max-width: 1290px){
+    #leftMain{
+        margin:2.5em;
+        /*margin-right: 0.5em;*/
+        color: #000000;
+        background-color: #FFFFFF;
+        /*outline: 0.1em solid #A841BD;*/
+        padding: 2em;
+        max-width: 90%;
+        font-family: Verdana, sans-serif;
+        border-radius: 0.5em;
+        float: inherit;
+    }
+
+    #rightMain{
+        margin: 2.5em;
+        /*margin-left: 0.5em;*/
+        color: #000000;
+        background-color: #FFFFFF;
+        /*outline: 0.1em solid #A841BD;*/
+        padding: 2em;
+        max-width: 90%;
+        font-family: Verdana, sans-serif;
+        border-radius: 0.5em;
+        float: inherit;
+    }
+}
+
+@media only screen and (max-width: 1370px){
+    #newsSection{
+        max-width: 100%;
+        float: left;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 1000px){
+    ul {
+        overflow: visible;
+        background-color: #943281;
+        font-size: 2em;
+        min-height: 1.5em;
+        font-family: Verdana, sans-serif;
+        /*+border-radius: 0.5em;*/
+        -moz-border-radius: 0.5em;
+        -webkit-border-radius: 0.5em;
+        -khtml-border-radius: 0.5em;
+        border-radius: 0.5em;
+        position: relative;
+        text-align: center;
+    }
+
+    li {
+        max-width: 100%;
+        display: inline;
+        margin-right: 1.5em;
+    }
+
+    li a {
+        display: inline;
+        max-width: 100%;
+        text-align: center;
+        line-height: 1.5em;
+        font-family: Verdana, sans-serif;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 1em;
+        position: relative;
+    }
+
+    li a:hover {
+        background-color: rgba(110, 40, 100, 0.700);
+        /*+border-radius: 0.5em;*/
+        -moz-border-radius: 0.5em;
+        -webkit-border-radius: 0.5em;
+        -khtml-border-radius: 0.5em;
+        border-radius: 0.5em;
+    }
+
+}
